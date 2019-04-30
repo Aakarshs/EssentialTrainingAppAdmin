@@ -1,0 +1,33 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+#main_container_sidebar {
+    position: absolute;
+    height: 100vh;
+    width: 250px;
+    background-color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu_buttons {
+    margin: 20px;
+    margin-left: -20px;
+    font-family: "circular";
+    color: #A7A9AC;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#menu_buttons:hover {
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+}
